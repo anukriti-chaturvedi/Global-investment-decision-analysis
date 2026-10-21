@@ -1,0 +1,72 @@
+Table,Column,Data Type,Missing Values
+historical_financials,Year,int64,0
+historical_financials,Company,object,0
+historical_financials,Revenue,float64,0
+historical_financials,Revenue Growth,float64,1
+historical_financials,EBITDA,float64,0
+historical_financials,EBITDA Margin,float64,0
+historical_financials,Net Income,float64,0
+historical_financials,Net Profit Margin,float64,0
+historical_financials,Cash Flow from Operating,float64,0
+historical_financials,FCF_Proxy,float64,0
+historical_financials,FCF Margin,float64,0
+historical_financials,ROE,float64,0
+historical_financials,ROA,float64,0
+historical_financials,ROI,float64,0
+historical_financials,Current Ratio,float64,0
+historical_financials,Debt/Equity Ratio,float64,0
+historical_financials,Number of Employees,int64,0
+base_forecast,Year,int64,0
+base_forecast,Company,object,0
+base_forecast,Forecast Type,object,0
+base_forecast,Revenue Growth Assumption (%),float64,0
+base_forecast,Projected Revenue,float64,0
+base_forecast,EBITDA Margin,float64,0
+base_forecast,Projected EBITDA,float64,0
+base_forecast,Net Profit Margin,float64,0
+base_forecast,Projected Net Income,float64,0
+base_forecast,OCF Margin,float64,0
+base_forecast,Projected Operating Cash Flow,float64,0
+base_forecast,FCF Margin,float64,0
+base_forecast,Projected FCF,float64,0
+scenario_forecast,Scenario,object,0
+scenario_forecast,Year,int64,0
+scenario_forecast,Company,object,0
+scenario_forecast,Revenue Growth (%),float64,0
+scenario_forecast,Revenue,float64,0
+scenario_forecast,EBITDA Margin,float64,0
+scenario_forecast,EBITDA,float64,0
+scenario_forecast,Net Profit Margin,float64,0
+scenario_forecast,Net Income,float64,0
+scenario_forecast,OCF Margin,float64,0
+scenario_forecast,Operating Cash Flow,float64,0
+scenario_forecast,FCF Margin,float64,0
+scenario_forecast,FCF,float64,0
+dcf_valuation,Company,object,0
+dcf_valuation,Scenario,object,0
+dcf_valuation,PV of 2024-2028 FCF,float64,0
+dcf_valuation,Terminal Value,float64,0
+dcf_valuation,PV of Terminal Value,float64,0
+dcf_valuation,Indicative Enterprise Value,float64,0
+dcf_valuation,Terminal Value % of EV,float64,0
+dcf_sensitivity,Company,object,0
+dcf_sensitivity,WACC,object,0
+dcf_sensitivity,Terminal Growth 2%,float64,0
+dcf_sensitivity,Terminal Growth 3%,float64,0
+dcf_sensitivity,Terminal Growth 4%,float64,0
+risk_assessment,Company,object,0
+risk_assessment,Risk / Quality Dimension,object,0
+risk_assessment,Assessment,object,0
+risk_assessment,Evidence,object,0
+investment_decision,Company,object,0
+investment_decision,Historical Assessment,object,0
+investment_decision,Forecast Assessment,object,0
+investment_decision,Cash Flow Assessment,object,0
+investment_decision,Balance Sheet Assessment,object,0
+investment_decision,DCF Assessment,object,0
+investment_decision,Valuation Risk,object,0
+investment_decision,Final Investment View,object,0
+investment_decision,Key Limitation,object,0
+investment_decision,Recommended Next Step,object,0
+project_summary,Metric,object,0
+project_summary,Value,object,0
